@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Online Exam Web App - README</title>
 </head>
 <body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; max-width: 900px; margin: 0 auto; padding: 20px;">
   <h1>📝 Online Exam Web Application</h1>
@@ -31,25 +30,6 @@
     <li><strong>Effects:</strong> canvas-confetti for celebration animation</li>
   </ul>
 
-  <h2>📁 Project Structure</h2>
-  <pre><code>
-/ExamApp
-├── /LoginSignup/         # Sign-up page with validation
-├── /ExamPage/            # Questions, Timer, Navigation
-├── /ResultPage/          # Score display and final message
-├── /Assets/              # SVG icons and result images
-├── style.css             # Shared CSS styling
-├── script.js             # Main functionality scripts
-└── README.html           # This file
-  </code></pre>
-
-  <h2>📸 Preview</h2>
-  <ul>
-    <li>🧾 Sign-Up Page</li>
-    <li>🧠 Exam Interface with Timer</li>
-    <li>🎓 Result Page with Confetti / Timeout / Fail messages</li>
-  </ul>
-
   <h2>🧠 How It Works</h2>
   <ol>
     <li><strong>Sign-Up:</strong> User registers with validated fields; data stored in LocalStorage.</li>
@@ -60,11 +40,6 @@
 
   <h2>🚀 Try It Out</h2>
   <p><strong>To run locally:</strong></p>
-  <ol>
-    <li>Download or clone this repo</li>
-    <li>Start with <code>LoginSignup/index.html</code></li>
-    <li>Follow the flow: Sign Up → Exam → Results</li>
-  </ol>
 
 </body>
 </html>
