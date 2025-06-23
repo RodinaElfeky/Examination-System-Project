@@ -20,7 +20,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
     localStorage.setItem("lastName", Lname);
     localStorage.setItem("email", email);
     localStorage.setItem("password", password);
-    location.replace("../index.html");
+    location.replace("/Examination-System-Project/index.html");
     // window.location.href = "../index.html";
   }
 });
