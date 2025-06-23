@@ -38,8 +38,5 @@
     <li><strong>Result Page:</strong> Displays message based on score, shows grade, name, and exam date.</li>
   </ol>
 
-  <h2>🚀 Try It Out</h2>
-  <p>https://rodinaelfeky.github.io/Examination-System-Project/</p>
-
 </body>
 </html>
