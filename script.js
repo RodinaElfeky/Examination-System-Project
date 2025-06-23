@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
       ) {
         event.preventDefault();
         location.replace("ExamPage/form_page.html");
-        // window.location.href = "ExamPage/form_page.html";
+        // window.location.href = "/Examination-System-Project/ExamPage/form_page.html";
       } else {
         showError(emailInput, "Incorrect email or password");
         showError(passwordInput, "Incorrect email or password");
