@@ -39,7 +39,7 @@
   </ol>
 
   <h2>🚀 Try It Out</h2>
-  <p><strong>To run locally:</strong></p>
+  <p>https://rodinaelfeky.github.io/Examination-System-Project/</p>
 
 </body>
 </html>
