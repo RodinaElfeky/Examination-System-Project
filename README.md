@@ -1,80 +1,70 @@
-📝 Online Exam Web Application
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Exam Web App - README</title>
+</head>
+<body style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; max-width: 900px; margin: 0 auto; padding: 20px;">
+  <h1>📝 Online Exam Web Application</h1>
 
-Welcome to the Online Exam System — a fully interactive, responsive, and dynamic web app designed to simulate real exam environments for students. It includes sign-up/login, randomized questions, live timer, answer tracking, marked questions, and a detailed results page — all packed into a beautiful UI!
-🌟 Features
+  <p>
+    A fully responsive and interactive online exam platform designed for students to simulate real exam conditions with a modern UI, dynamic questions, a timer, and personalized results!
+  </p>
 
-✅ User Registration & Validation
-Secure sign-up form with real-time input validation for name, email, and password fields.
+  <h2>🌟 Features</h2>
+  <ul>
+    <li>✅ <strong>Sign-Up & Validation:</strong> Real-time input validation with email and password checks.</li>
+    <li>✅ <strong>Dynamic Question Rendering:</strong> Fetched from an external API, auto-shuffled, and rendered with radio buttons.</li>
+    <li>🚩 <strong>Mark Questions:</strong> Flag questions for review with sidebar navigation.</li>
+    <li>⏱️ <strong>Live Timer:</strong> Automatically submits exam when time is up.</li>
+    <li>📊 <strong>Auto Grading & Result Page:</strong> Score evaluation, pass/fail messages, and timeout detection.</li>
+    <li>🎉 <strong>Confetti Effects:</strong> For passing students, with animated visual celebration.</li>
+  </ul>
 
-✅ Dynamic Exam Page
+  <h2>🛠 Tech Stack</h2>
+  <ul>
+    <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript (Vanilla)</li>
+    <li><strong>API:</strong> Mocki.io for fetching dynamic question sets</li>
+    <li><strong>UI:</strong> Font Awesome, Google Fonts (Poppins)</li>
+    <li><strong>Storage:</strong> LocalStorage API for storing session data</li>
+    <li><strong>Effects:</strong> canvas-confetti for celebration animation</li>
+  </ul>
 
-    Questions fetched from a remote JSON API
-
-    Options auto-rendered and shuffled per question
-
-    Mark questions for review (🚩 flag system)
-
-    Navigate between questions with saved state
-
-    Live countdown timer (⏰)
-
-✅ Submission Logic
-
-    Modal confirmation before final submission
-
-    Score calculated and stored
-
-    Automatically redirects to result page on time-out or manual submission
-
-✅ Result Page with Feedback
-
-    Personalized message with user name and exam date
-
-    🎉 Confetti effect for passing score
-
-    ❌ Time-out and failure messages with animations
-
-    Clean and responsive UI with feedback messages and icons
-
-🛠 Tech Stack
-
-    HTML5 & CSS3
-
-    JavaScript (Vanilla)
-
-    LocalStorage API
-
-    Canvas Confetti Library
-
-    Google Fonts (Poppins)
-
-    Font Awesome Icons
-
-📁 Project Structure
-
+  <h2>📁 Project Structure</h2>
+  <pre><code>
 /ExamApp
-├── /LoginSignup/         # Sign up and validation logic
-├── /ExamPage/            # Exam UI, question fetcher, timer
-├── /ResultPage/          # Score summary and user feedback
-├── assets/               # SVG icons, images
-├── style.css             # Shared styles
-├── script.js             # Dynamic JS functionality
-└── README.md             # This file
+├── /LoginSignup/         # Sign-up page with validation
+├── /ExamPage/            # Questions, Timer, Navigation
+├── /ResultPage/          # Score display and final message
+├── /Assets/              # SVG icons and result images
+├── style.css             # Shared CSS styling
+├── script.js             # Main functionality scripts
+└── README.html           # This file
+  </code></pre>
 
-🧠 How It Works
+  <h2>📸 Preview</h2>
+  <ul>
+    <li>🧾 Sign-Up Page</li>
+    <li>🧠 Exam Interface with Timer</li>
+    <li>🎓 Result Page with Confetti / Timeout / Fail messages</li>
+  </ul>
 
-    Sign Up
-    ➤ Validates input and stores user info in localStorage.
+  <h2>🧠 How It Works</h2>
+  <ol>
+    <li><strong>Sign-Up:</strong> User registers with validated fields; data stored in LocalStorage.</li>
+    <li><strong>Exam Page:</strong> Questions are fetched via API, user selects answers, flags questions, and timer runs.</li>
+    <li><strong>Submit/Timeout:</strong> On submit or time expiry, answers are scored and saved to LocalStorage.</li>
+    <li><strong>Result Page:</strong> Displays message based on score, shows grade, name, and exam date.</li>
+  </ol>
 
-    Exam Page
-    ➤ Loads randomized questions from API, tracks answers, enables flagging, and runs a countdown timer.
+  <h2>🚀 Try It Out</h2>
+  <p><strong>To run locally:</strong></p>
+  <ol>
+    <li>Download or clone this repo</li>
+    <li>Start with <code>LoginSignup/index.html</code></li>
+    <li>Follow the flow: Sign Up → Exam → Results</li>
+  </ol>
 
-    Submission / Time-out
-    ➤ On manual submission or timeout, score is calculated and stored.
-
-    Result Page
-    ➤ Shows a customized result message based on performance and time status, with confetti 🎊 for passing!
-
-🚀 Demo
-
-   
+</body>
+</html>
